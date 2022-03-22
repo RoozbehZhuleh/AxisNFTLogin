@@ -37,7 +37,7 @@
   align-items: center;
   background-color: var(--login-secondary-color);
   color: var(--light-color);
-  min-height: 82rem;
+  min-height: 80rem;
   max-height: 150rem;
   width: 30%;
   margin: 5rem 3rem;
@@ -179,4 +179,15 @@
 .sign-in__btn:hover {
   background-color: var(--light-color);
   color: var(--font-accent-color);
+}
+
+@media (max-width: 60rem) {
+  .login__img {
+    display: none;
+  }
+
+  .login__text {
+    width: 250rem;
+    height: 10rem;
+  }
 }
