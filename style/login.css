@@ -40,8 +40,8 @@
   min-height: 80rem;
   max-height: 150rem;
   width: 30%;
-  margin: 5rem 3rem;
-  overflow-y: hidden;
+  /* margin: 5rem 3rem; */
+  /* overflow-y: hidden; */
   border-radius: 3rem;
   animation: login 10s linear infinite;
   transition: all 0.2s linear;

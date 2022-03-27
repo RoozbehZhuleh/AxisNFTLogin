@@ -55,7 +55,7 @@ html {
   font-family: "montserrat", "Helvetica Neue", "Helvetica";
   scroll-behavior: smooth;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 body {
