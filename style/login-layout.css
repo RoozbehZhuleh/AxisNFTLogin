@@ -54,14 +54,13 @@ html {
   font-size: 62.5%;
   font-family: "montserrat", "Helvetica Neue", "Helvetica";
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* overflow-y: hidden; */
 }
 
 body {
   font-size: 1.5rem;
   background-color: var(--login-primary-color);
-  overflow-y: hidden;
 }
 
 button {
