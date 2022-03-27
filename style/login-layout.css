@@ -22,40 +22,10 @@
   --login-button-color: rgb(72, 78, 119);
 }
 
-/* .dark-mode {
-  --primary-color: #170322;
-  --dark-color: #07050e;
-  --accent-color: rgb(110, 64, 219);
-  --navbar-btn-color: rgba(52, 52, 68);
-  --light-color: #f3f3f3;
-  --font-accent-color: #808080;
-  --card-background-color: rgb(76, 70, 87);
-  --secondary-background-color: rgb(49, 37, 71);
-  --light-font-color: #f3f3f3;
-  --login-primary-color: rgba(25, 20, 65%);
-  --login-secondary-color: rgba(17, 17, 19, 50%);
-}
-
-.light-mode {
-  --primary-color: #ececec;
-  --dark-color: #cacaca;
-  --accent-color: rgba(201, 20, 20, 0.384);
-  --navbar-btn-color: rgba(52, 52, 68);
-  --light-color: #575757;
-  --font-accent-color: #363636;
-  --card-background-color: rgba(251, 255, 0, 0.74);
-  --secondary-background-color: rgba(68, 20, 201, 0.384);
-  --light-font-color: #555555;
-  --login-primary-background-color: rgba(25, 20, 65%);
-  --login-secondary-background-color: rgba(17, 17, 19, 50%);
-} */
-
 html {
   font-size: 62.5%;
   font-family: "montserrat", "Helvetica Neue", "Helvetica";
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
-  /* overflow-y: hidden; */
 }
 
 body {

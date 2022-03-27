@@ -61,24 +61,6 @@
   position: sticky;
 }
 
-/* .login-page::before {
-  content: " ";
-  width: 0.5rem;
-  height: 80rem;
-  position: relative;
-  background-color: red;
-  z-index: 200;
-}
-
-.login-page::after {
-  content: " ";
-  width: 0.5rem;
-  height: 80rem;
-  position: relative;
-  background-color: red;
-  z-index: 200;
-} */
-
 .login__credentials {
   display: flex;
   flex-direction: column;
