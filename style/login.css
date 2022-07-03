@@ -9,19 +9,36 @@
 }
 
 .login-page {
+  background-color: var(--login-primary-color);
+}
+
+.login__images{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .login__img {
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
-  align-items: center;
-  background-color: var(--login-primary-color);
-  width: 70%;
-  height: 100%;
+  align-items: center;*/
+  width: 20000px;
+  height: 34.8vh; 
+  background-image: url(../assets/login/sharing.jpeg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.login__img__1{
+  animation: background1 350s infinite linear forwards;
+}
+.login__img__2{
+  animation: background2 700s infinite linear forwards;
+}
+.login__img__3{
+  animation: background1 450s infinite linear forwards;
 }
 
 .login__img img {
@@ -46,7 +63,7 @@
   color: var(--light-color);
   min-height: 80rem;
   max-height: 150rem;
-  width: 25%;
+  width: 40rem;
   border-radius: 3rem;
   animation: login 10s linear infinite;
   transition: all 0.2s linear;
@@ -69,19 +86,33 @@
   margin: 1rem 0;
 }
 
+.sign-in{
+  width: 25rem;
+}
+
 .sign-in__btn {
-  max-width: 100%;
+  display: grid;
+  grid-template-columns: 20rem;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
   padding: 1rem 10.5rem;
   box-shadow: inset 0.07rem 0.07rem 0.07rem var(--login-primary-color);
   background-color: var(--login-button-color);
   color: var(--light-color);
   border-radius: 1rem;
-  margin: 0 0 10rem 0;
+  margin: 0 0 8rem 0;
   transition: all 0.2s linear;
 }
 
+.sign-in__btn p{
+  width: 20rem;
+  text-align: center;
+}
+
 .email,
-.password {
+.password,
+.name {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,11 +120,19 @@
   margin: 1rem 0;
 }
 
+.name {
+  display: none;
+}
+
 .email input,
-.password input {
-  padding: 1rem 6rem;
+.password input,
+.name input {
+  padding: 0 5px;
+  width: 25rem;
+  height: 4rem;
   border-radius: 1rem;
   margin: 0.5rem 0;
+  text-align: left;
 }
 
 .create-account {
@@ -168,6 +207,38 @@
   color: var(--font-accent-color);
 }
 
+.home__btn {
+  width: 5rem;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 20;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.home__btn i {
+  font-size: var(--font-l);
+  color: var(--light-color);
+  cursor: pointer;
+}
+
+.display-block {
+  display: block;
+}
+
+@keyframes background1{
+  0%{transform: translateX(0)}
+  100%{transform: translateX(-100%);}
+}
+@keyframes background2{
+  0%{transform: translateX(0)}
+  100%{transform: translateX(100%);}
+}
+
+
+
 @media (max-width: 60rem) {
   .login__img {
     display: none;
@@ -204,4 +275,6 @@
   .or-box {
     display: none;
   }
+
+  
 }

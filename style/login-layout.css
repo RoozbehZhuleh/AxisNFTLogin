@@ -20,6 +20,14 @@
   --login-secondary-color: rgb(20, 15, 46);
   --login-third-color: rgb(44, 38, 77);
   --login-button-color: rgb(72, 78, 119);
+  --font-xs: 1.2rem;
+  --font-s: 1.5rem;
+  --font-ms: 1.8rem;
+  --font-m: 2rem;
+  --font-ml: 2.2rem;
+  --font-l: 3rem;
+  --font-xl: 4rem;
+  --font-xxl: 7rem;
 }
 
 html {
@@ -31,6 +39,8 @@ html {
 body {
   font-size: 1.5rem;
   background-color: var(--login-primary-color);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 button {
@@ -95,212 +105,3 @@ a {
   font-family: inherit;
 }
 
-.likes {
-  color: var(--light-color);
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 1rem 1rem;
-  position: relative;
-  top: 0.5rem;
-  cursor: pointer;
-  background-color: var(--dark-color);
-  border-radius: 1rem;
-  max-width: 8rem;
-}
-
-.likes i {
-  color: red;
-  margin: 0 0.5rem 0 0;
-}
-
-@keyframes rabbit {
-  0% {
-    transform: translateY(0%);
-  }
-  50% {
-    transform: translateY(30%);
-  }
-}
-
-@keyframes plus--1 {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes plus--2 {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotate(-360deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes ellipse--1 {
-  10% {
-    transform: translateX(30rem) translateY(-60rem);
-    opacity: 0.8;
-  }
-  25% {
-    transform: translateX(-80rem) translateY(-30rem);
-    opacity: 0.5;
-  }
-  50% {
-    transform: translateX(-60rem) translateY(-50rem);
-    opacity: 0.3;
-  }
-
-  75% {
-    transform: translateX(-10rem) translateY(-10rem);
-    opacity: 1;
-  }
-}
-
-@keyframes ellipse--2 {
-  10% {
-    transform: translateX(-30rem) translateY(-10rem);
-  }
-  25% {
-    transform: translateX(-60rem) translateY(-40rem);
-  }
-  50% {
-    transform: translateX(20rem) translateY(40rem);
-  }
-}
-
-@keyframes ellipse--3 {
-  10% {
-    transform: translateX(40rem) translateY(-50rem);
-    opacity: 0.8;
-  }
-  25% {
-    transform: translateX(-20rem) translateY(-10rem);
-    opacity: 0.5;
-  }
-  50% {
-    transform: translateX(-60rem) translateY(-50rem);
-    opacity: 0.3;
-  }
-
-  75% {
-    transform: translateX(10rem) translateY(-10rem);
-    opacity: 1;
-  }
-}
-
-@keyframes ellipse--4 {
-  10% {
-    transform: translateX(30rem) translateY(0rem);
-    opacity: 0.5;
-  }
-  25% {
-    transform: translateX(-80rem) translateY(-30rem);
-    opacity: 0.2;
-  }
-  50% {
-    transform: translateX(-60rem) translateY(-50rem);
-    opacity: 0.4;
-  }
-
-  75% {
-    transform: translateX(-10rem) translateY(-10rem);
-    opacity: 1;
-  }
-}
-
-@keyframes planet {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-5rem);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes blob {
-  0% {
-    min-height: 50rem;
-  }
-  50% {
-    min-height: 60rem;
-  }
-  100% {
-    min-height: 50rem;
-  }
-}
-
-@keyframes star {
-  0% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 0.3;
-  }
-}
-
-@keyframes monster {
-  0% {
-    transform: rotate(2deg) translateY(2rem);
-    z-index: -1;
-  }
-
-  50% {
-    transform: translateX(29rem) translateY(2rem);
-    z-index: -1;
-  }
-
-  55% {
-    transform: translateX(29rem) translateY(2rem) scaleX(-1);
-  }
-  98% {
-    transform: translateY(2rem) scaleX(-1);
-    z-index: -1;
-  }
-
-  100% {
-    transform: translateX(0) translateY(2rem) scaleX(1);
-  }
-}
-
-@keyframes monster2 {
-  0% {
-    transform: translateY(0);
-    z-index: -1;
-  }
-
-  50% {
-    transform: translateY(-30rem);
-    z-index: -1;
-  }
-
-  100% {
-    transform: rotate(0deg) translateY(0rem);
-    z-index: -1;
-  }
-}
-
-@keyframes login {
-  0% {
-  }
-  50% {
-  }
-  100% {
-  }
-}
